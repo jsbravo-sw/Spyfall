@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-   res.redirect("http://localhost:3000");
+   res.redirect("https://spyfall-webapp.herokuapp.com/");
 });
 
 module.exports = router;
